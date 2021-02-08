@@ -20,4 +20,4 @@ if __name__ == '__main__':
     print(Joao.sobrenome)
     del Joao.filhos #Remover atributos
     print(Joao.__dict__) #mostra todos os atributos
-    print(renzo.__dict__)
+    print(renzo.__dict__) #mostra todos os atrubutos
