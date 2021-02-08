@@ -13,8 +13,11 @@ class Pessoa: #As classes devem começar com letra maiúscula
     def nome_e_atributos_de_classe(cls):
         return f'{cls} - olhos {cls.olhos}'
 
+class Homem (Pessoa):
+    pass
+
 if __name__ == '__main__':
-    renzo = Pessoa(nome='Renzo')
+    renzo = Homem(nome='Renzo')
     Joao = Pessoa(renzo,nome ='João')
     print(Pessoa.cumprimentar(Joao))
     print(id(Joao))
